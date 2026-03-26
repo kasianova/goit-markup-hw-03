@@ -69,6 +69,7 @@ ul {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
+    display: flex;
     border: 1 solid #000000;
     gap: 40;
     padding-top: 24px ;
@@ -94,10 +95,10 @@ ul {
 }
 .page-title {
     background-color: #2e2f42;
-    padding top: 188px;
-    padding-bottom: 188px;
+    display: flex;
 
 }
+
 .title {
     color: white;
     font-family: "Roboto", sans-serif;
@@ -106,6 +107,7 @@ ul {
     text-align: center;
     line-height: 1.07;
 }
+
 .button {
     background-color: #4d5ae5;
     color: white;
