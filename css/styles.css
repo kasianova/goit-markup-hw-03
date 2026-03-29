@@ -39,7 +39,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-right: 76px;
+    /* margin-right: 76px; */
  }
     
 .logo .web {
@@ -67,13 +67,14 @@ ul {
     font-weight: 500;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    gap: 40px;
+
 }
 
 .page-header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    /* padding-inline: 156px; */
+    gap: 76px;
 }
 
 .page-nav {
@@ -87,6 +88,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    margin-left: auto;
 }
 
 .contacts .link {
@@ -96,8 +98,6 @@ ul {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: auto;
-
 }
 
 .link:hover,
@@ -171,12 +171,12 @@ ul {
 
  .list-features {
     display: flex;
-    padding-inline: 156px;
- 
  }
 
  .list-item {
     width: calc((100% - 24px * 3) / 4);
+    gap: 24px;
+    
  }
         
 .section-text {
@@ -285,6 +285,7 @@ ul {
     padding: 32px 16px;
 }
 
+
 .portfolio-item img {
     display: block;
     width: 100%;
@@ -292,7 +293,7 @@ ul {
 }
 
 .portfolio-item {
-width: calc((100% - 24 * 4) / 6);
+width: calc((100% - 24px * 2) / 3);
 }
 
 .title-card {
@@ -338,5 +339,5 @@ width: calc((100% - 24 * 4) / 6);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 156px;
+    /* padding-left: 156px; */
 }
