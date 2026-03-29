@@ -66,7 +66,6 @@ ul {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
-    /* padding: 24px 0; */
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -76,15 +75,13 @@ ul {
 .page-header .container {
     display: flex;
     align-items: center;
-    /* gap: 76px; */
+  
 }
 
 .page-nav {
     display: flex;
     gap: 40px;
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
-
+    
 }
 
 .contacts {
@@ -102,7 +99,6 @@ ul {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin: 0 auto;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -184,7 +180,6 @@ ul {
 
  .list-item {
     width: calc((100% - 24px * 3) / 4);
-    /* gap: 24px; */
     
  }
         
@@ -225,11 +220,7 @@ ul {
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-/* .team-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
+
 
 .team-list {
         display: flex;
@@ -252,7 +243,6 @@ ul {
     letter-spacing: 0.02em;
     font-weight: 500;
     text-align: center;
-    /* margin-top: 32px; */
     margin-bottom: 8px;
 
 }
@@ -294,13 +284,6 @@ ul {
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
-
-
-/* .portfolio-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
 
 .portfolio-item {
 width: calc((100% - 24px * 2) / 3);
@@ -350,5 +333,5 @@ width: calc((100% - 24px * 2) / 3);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* padding-left: 156px; */
+   
 }
