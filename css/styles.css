@@ -55,11 +55,10 @@ ul {
     padding-left: 0;
 }
 
-.page-header {
+.page-header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
 }
 
 
@@ -340,7 +339,7 @@ width: calc((100% - 24px * 2) / 3);
     text-align: left;
 }
 
-.foot {
+.foot .container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
