@@ -29,7 +29,7 @@ body {
 .page-header {
     background-color: white;
     color: #2e2f42;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -66,14 +66,15 @@ ul {
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     gap: 40px;
-
 }
 
-.page-header .container {
+.page-header-container {
     display: flex;
     align-items: center;
+    max-width: 1158px;
+    margin: 0 auto;
     /* gap: 76px; */
 }
 
@@ -89,6 +90,7 @@ ul {
     flex-direction: row;
     gap: 40px;
     margin-left: auto;
+    font-style: normal;
 }
 
 .contacts .link {
@@ -98,8 +100,8 @@ ul {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    /* margin: 0 auto; */
 }
-
 .link:hover,
 .link:focus {
     color: #404bbf;
@@ -139,6 +141,7 @@ ul {
     padding-inline: 32px;
     display: inline-block;
     margin: 0 auto;
+    border: none;
    }
 
 .button:hover,
@@ -209,7 +212,7 @@ ul {
 .team-item {
     background-color: white;
     border-radius: 0 0 4px 4px;
-    padding-block: 0px 32px;
+    /* padding-block: 0px 32px; */
     padding-inline: 0px;
     overflow: hidden;
     width: calc((100% - 24px * 3) / 4);
