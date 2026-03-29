@@ -55,7 +55,7 @@ ul {
     padding-left: 0;
 }
 
-.page-header .container {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -218,7 +218,6 @@ ul {
 .team-item {
     background-color: white;
     border-radius: 0 0 4px 4px;
-    /* padding-block: 0px 32px; */
     padding-inline: 0px;
     overflow: hidden;
     width: calc((100% - 24px * 3) / 4);
@@ -339,9 +338,8 @@ width: calc((100% - 24px * 2) / 3);
     text-align: left;
 }
 
-.foot .container {
+.foot-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 }
