@@ -68,21 +68,23 @@ ul {
     letter-spacing: 0.02em;
     /* padding: 24px 0; */
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 
-.page-header-container {
+.page-header .container {
     display: flex;
     align-items: center;
-    max-width: 1158px;
-    margin: 0 auto;
     /* gap: 76px; */
 }
 
 .page-nav {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+
 }
 
 .contacts {
@@ -100,7 +102,9 @@ ul {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .link:hover,
 .link:focus {
